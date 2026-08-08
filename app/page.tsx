@@ -202,12 +202,6 @@ export default function Home() {
           data-pad="1"
         >
           <div>
-            <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 20 }}>
-              <span style={{ width: 7, height: 7, background: "var(--color-accent)", display: "block" }} />
-              <span style={{ fontFamily: "var(--font-heading)", fontSize: 13, letterSpacing: ".16em", textTransform: "uppercase", color: "var(--color-accent-700)" }}>
-                {t.heroKicker}
-              </span>
-            </div>
             <h1 data-hero-h="1" style={{ fontSize: 74, lineHeight: 0.95, letterSpacing: "-.02em", margin: "0 0 20px" }}>
               {t.heroTitleA} <span style={{ color: "var(--color-accent-700)" }}>{t.heroTitleB}</span>
             </h1>
